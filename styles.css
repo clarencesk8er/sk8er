@@ -1,0 +1,837 @@
+@charset"utf-8";
+
+
+/*CSS DOCUMENT*/
+
+/*OVERALL CONTAINER*/
+
+#overall-container
+			{
+			width:1024px;
+			margin:0 auto;
+			}
+/*OVERALL CONTAINER*/
+
+/*HEADER CONTAINER*/
+
+#header-container
+			{
+			
+			margin-left:25px;
+			margin-top:25px;
+			}
+
+
+/*HEADER CONTAINER*/
+
+
+/*BODY STYLE*/
+
+BODY{ 
+	Background:#FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+ 	font-weight:400;
+	color:#A39E9E;
+	width:1024px;
+	height:600px;
+	margin:0 auto;
+			
+     }
+
+
+
+
+/*BODY STYLE*/
+
+
+/*NAVIGATION BEHAVIOUR*/
+
+a:hover {
+	    color: #F49F61;
+	    text-decoration:underline;
+	   }
+
+a:link   {
+	    color: #000000;
+           }
+
+a:visited  {
+	    color: #A39E9E;
+	   } 
+
+/*NAVIGATION BEHAVIOUR*/
+
+
+/*NAVIGATION STYLE*/
+
+     	 nav{ 
+		font-family:'Inconsolata';
+		font-size:22px;
+		margin-bottom:15px;
+		margin-right:25px;
+		text-align:right;
+	    }
+
+      nav ul	{   
+		
+	        display:inline;
+		text-align:right;
+
+	    	}
+
+  nav ul li {   
+		
+	        display:inline;
+		list-style-type:none;
+		padding-left:10px;
+		padding-right:10px;
+		
+		
+	    }
+
+/*NAVIGATION STYLE*/
+
+
+
+/*FEATURE IMAGE*/
+
+#feature-image
+	      {
+
+		Background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:15px;
+ 		font-weight:300;
+		width:950px;
+		border: 1px solid #A39E9E;
+	        padding-top:10px;
+		padding-right:23px;
+	        margin:0 auto;
+		margin-bottom:25px;
+		text-align:center;
+		
+	       }
+
+li		{
+		margin-left:10px;
+		text-align:left;
+		margin-bottom:-8px;
+		}
+
+#feature-image-aboutus
+	      {
+
+		Background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:15px;
+ 		font-weight:300;
+		width:950px;
+		border: 1px solid #A39E9E;
+		padding-top:10px;
+		padding-right:23px;
+	        margin:0 auto;
+		margin-bottom:25px;
+		text-align:center;
+		
+	       }
+
+li		{
+		margin-left:10px;
+		text-align:left;
+		margin-bottom:-8px;
+		}
+
+
+#feature-image-contactus
+	      {
+
+		Background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:15px;
+ 		font-weight:300;
+		width:950px;
+		border: 1px solid #A39E9E;
+		padding-top:10px;
+		padding-right:23px;
+	        margin:0 auto;
+		margin-bottom:25px;
+		text-align:center;
+		
+	       }
+
+li		{
+		margin-left:10px;
+		text-align:left;
+		margin-bottom:-8px;
+		}
+
+
+
+/*FEATURE IMAGE*/
+
+
+figure 			{
+			display:inline;
+			width:1000px;
+			-webkit-margin-before: 1em;
+			-webkit-margin-after: 1em;
+			-webkit-margin-start: 12px;
+			-webkit-margin-end: 18px;
+			
+			}
+
+/*FEATURE IMAGE*/
+
+
+/*INTRO TEXT*/
+
+P#intro-text 
+	       {
+		Background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+ 		font-weight:300;
+		color:#A39E9E;
+		width:130px;
+		height:435px;
+		padding-top:12px;
+		padding:10px;
+		text-align:center;
+		margin-left:50px;
+		margin-top:79px;
+		color:#000000;
+		
+	  	}
+
+#text 
+	       {
+		Background:#FFFFFF;
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+ 		font-weight:300;
+		color:#A39E9E;
+		text-align:justify;
+		margin-top:0;
+		color:#000000;
+		padding:5px;
+		margin-left:150px;
+		margin-right:150px;
+		
+	  	}
+
+#text    .three-col{
+			-moz-column-count: 3;
+			-moz-column-gap: 25px;
+			-webkit-column-count: 3;
+			-webkit-column-gap: 25px;
+		    }
+
+#text h1	{
+		margin:0 auto;
+		text-align:center;
+		}
+#intro-advice
+	       {
+		Background:#FFFFFF;
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+ 		font-weight:300;
+		color:#A39E9E;
+		text-align:justify;
+		margin-top:0;
+		color:#000000;
+		padding:5px;
+		margin-left:150px;
+		margin-right:150px;
+			
+	  	}
+
+#intro-advice    .three-col{
+		-moz-column-count: 3;
+		-moz-column-gap: 25px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 25px;
+		}
+
+#intro-advice h1	{
+			margin:0 auto;
+			text-align:center;
+			}
+
+
+
+
+#contactus-text 
+		{
+		Background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		width:580px;
+		height:240px;
+		font-size:18px;
+ 		font-weight:300;
+		color:#A39E9E;
+		text-align:center;
+		color:#000000;
+		padding:25px;
+		float:left;
+		margin-left:25px;
+				
+	  	}
+
+#image-panel	{
+		margin-left:262px;
+		margin-bottom:800px;
+		margin-top:280px;
+			
+		}
+
+
+/*INTRO TEXT*/
+
+/*ASIDE CONTAINER*/
+
+#aside-container  
+		{
+		
+		margin:0 auto;
+		margin-top:-470px;
+												
+		}
+
+
+
+/*ASIDE CONTAINER*/
+
+
+/*MTHENTU BLOG*/
+
+#side-panel-blog-1 {
+			background:#CECECE;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:right;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			padding-bottom:15px;
+			margin-right:50px;
+			margin-left:70px;
+			margin-bottom:100px;
+								
+		    }
+
+	
+/*MTHENTU HEADING*/
+
+	h3{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:40px;
+	        color:#000000;
+		
+	  	}	
+
+/*MTHENTU HEADING*/
+
+/*MTHENTU BLOG*/
+
+
+/*CAMPING BLOG*/
+
+#side-panel-blog-2 {
+			background:#CECECE;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:right;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			padding-bottom:15px;
+			margin-left:20px;
+			margin-bottom:35px;
+			margin:0 auto;
+		   }
+
+
+/*CAMPING HEADING*/
+
+	   h4{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:10px;
+	        color:#000000;
+		
+		
+	  	}
+
+/*CAMPING HEADING*/
+
+/*CAMPING BLOG*/
+
+/*ASIDE ABOUTUS*/
+
+#aside-aboutus  
+		{
+		
+		float:right;
+		margin-right:25px;
+		margin-bottom:250px;
+				
+		}
+
+h3{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+/*ASIDE ABOUTUS*/
+
+
+/*OUR STORY*/
+
+#side-ourstory 		{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:left;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			margin-right:100px;
+			margin-bottom:35px;
+					
+			}
+		     
+
+			
+/*OUR STORY*/
+
+/*CONTACT US*/
+
+#aside-contactus-container  
+					
+			{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:right;
+			text-align:justify;
+			padding:15px;
+			margin-right:25px;
+			margin-bottom:15px;
+				
+			}
+		     
+												
+		
+
+
+
+#contact-panel-2 
+			{
+			background:#F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:180px;
+			height:40px;
+			text-align:left;
+			padding-left:5px;
+			margin-left:1px;
+			padding-right:5px;
+			margin-right:150px;						
+			margin-bottom:30px;
+			
+			
+		   	}
+
+
+#contact-panel-2 h2	{
+			background:#F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:16px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:25px;
+			text-align:center;
+			}
+
+
+
+
+#contact-panel-2 img {margin:auto;}
+								
+		    
+
+#contact-panel-1 {
+			background:#F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:170px;
+			height:40px;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			margin-right:110px;
+			margin-top:-20px;
+			margin-bottom:150px;
+		   }
+
+
+#contact-panel-1 h2	{
+			background:#F49F61;
+			font-family:'Open Sans', sans-serif;
+			}			
+
+
+#contact-panel-2 img {margin:auto;}
+
+/*MAIN HEADINGS*/
+
+	   h2{	
+		background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:20px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:40px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+	  	}
+
+/*MAIN HEADINGS*/
+
+#side-ourstory img	{
+			margin-left:52px;
+			padding:24px;
+			}
+
+#side-married img	{
+			margin-left:30px;
+			}
+
+/*MARRIED*/
+
+#side-married 	  {
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			text-align:justify;
+			padding-left:5px;
+			float:right;
+			padding-right:5px;
+			margin-left:10px;
+			margin-right:120px;
+			margin-bottom:35px;
+		   }
+
+	
+/*MARRIED*/
+
+/*ASIDE ADVICE*/
+
+#aside-advice  
+		{
+		
+		float:right;
+		margin-right:25px;
+		margin-bottom:250px;
+				
+		}
+
+
+
+/*ASIDE ADVICE*/
+
+/*MARRIAGE ADVICE*/
+
+#marriage-advice 	{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:left;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			margin-right:100px;
+			margin-bottom:300px;
+			}
+
+
+
+
+
+h2		{	
+		background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+#marriage-advice img	{
+			margin-left:110px;
+			padding:10px;
+			}
+
+h3{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+
+		
+		   
+
+
+/*MARRIAGE ADVICE*/
+
+
+/*TAX ADVICE*/
+
+#tax-advice 		
+		{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			text-align:justify;
+			padding-left:5px;
+			float:right;
+			padding-right:5px;
+			margin-left:10px;
+			margin-right:120px;
+			margin-bottom:35px;
+		   	}
+
+
+h2		{	
+		background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+#tax-advice img	{
+			margin-left:110px;
+			padding:10px;
+			}
+
+h4{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+#tax-advice ul{
+		    text-align:justify;
+		   }
+
+/*TAX ADVICE*/
+
+/*CTA CONTAINER*/
+
+
+#cta-container  
+		
+               {
+	    	Background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+	    	font-size:16px;
+ 	    	font-weight:300;
+	    	color:#F49F61;
+	    	text-align:center;
+	   	 width:300px;
+	   	 height:250px;
+	    	padding-left:3px;
+	    	padding-right:5px;
+	    	margin-left:0px;
+		margin-right:10px;
+	    	margin-bottom:-25px;
+		clear:both;
+	    	-webkit-border-top-left-radius: 100px;
+		-moz-border-top-left-radius: 100px;
+		 border-top-left-radius: 100px;
+	    	-webkit-border-top-right-radius: 25px;
+		-moz-border-top-right-radius: 25px;
+		 border-top-right-radius: 25px;
+	    	-webkit-border-bottom-right-radius: 100px;
+		-moz-border-bottom-right-radius: 100px;
+		 border-bottom-right-radius: 100px;
+	    	}
+
+#CTA h4			
+				{
+				width: 250px;
+				text-align: left;
+				margin-left: 20px;
+				
+				}
+
+#CTA img			
+				{
+				margin-left: 30px;
+				padding-right: 10px;
+				margin-top: -25px;
+				}
+
+#CTA-heading
+				{
+				font-family:'Open Sans', sans-serif;
+				font-size: 30px;
+				font-weight: 300;
+				text-align: right;
+				padding-top: 5px;
+				padding-right: 22px;
+				background: #FFFFFF;
+				width: 185px;
+				height:50px;
+				margin-left: 85px;
+				margin-right: 35px;
+				padding-right: 20px;
+				padding-left: 15px;
+				-webkit-border-radius: 25px;
+				-webkit-border-bottom-right-radius: 0;
+				-webkit-box-shadow: 5px -6px 25px 0px rgba(132, 132, 132, 0.6)
+				
+			        }
+			
+
+
+  
+/*CTA BOX*/
+
+#footer-strip		{
+			margin:0 auto;
+			margin-bottom:90px;
+			clear:both;
+			}
+
+
+/*FOOTER*/
+#footer-container	{
+			Background:#CECECE;
+			font-family: 'Open Sans', sans-serif;
+			font-size:12px;
+ 			font-weight:400;
+			color:#FFFFFF;
+			max-width:100%;
+			min-width:100%; 
+			height:100px;
+			text-align:center;
+			min-height:100px;
+			margin:0 auto;
+			margin-top:-100px;
+			clear:both;
+			
+			}
+#footer		
+		{
+			 
+ 		 	 min-height:100%; 
+  			 width:100%; 
+			 height:100%;
+  			 max-width:100%; 
+  		 	 margin:0 auto;
+			 text-align:center;
+			 clear:both;
+			
+			 
+		}
+
+/*FOOTER*/
+

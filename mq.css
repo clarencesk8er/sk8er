@@ -1,0 +1,878 @@
+@charset"utf-8";
+
+@media screen and (max-width:768px){
+
+/*CSS DOCUMENT*/
+
+/*OVERALL CONTAINER*/
+
+#overall-container
+			{
+			
+			max-width:100%;
+			margin:5px;
+			margin:0 auto;
+			
+			}
+/*OVERALL CONTAINER*/
+
+/*HEADER CONTAINER*/
+
+#header-container
+			{
+			
+			text-align:center;
+			margin-top:25px;
+			width:100%;
+			}
+
+
+/*HEADER CONTAINER*/
+
+
+/*BODY STYLE*/
+
+BODY{ 
+	Background:#FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+ 	font-weight:400;
+	color:#A39E9E;
+	max-width:100%;
+	max-height:100%;
+	margin:0 auto;
+	
+			
+     }
+
+
+
+
+/*BODY STYLE*/
+
+
+/*NAVIGATION BEHAVIOUR*/
+
+a:hover {
+	    color: #F49F61;
+	    text-decoration:underline;
+	   }
+
+a:link   {
+	    color: #000000;
+           }
+
+a:visited  {
+	    color: #A39E9E;
+	   } 
+
+/*NAVIGATION BEHAVIOUR*/
+
+
+/*NAVIGATION STYLE*/
+
+     	 nav{ 
+		font-family:'Inconsolata',
+		font-style:normal 400;
+	        font-size:17px;
+		margin-bottom:15px;
+		margin-right:25px;
+		text-align:center;
+	    }
+
+      nav ul	{   
+		
+	        display:inline;
+		text-align:right;
+		
+
+	    	}
+
+  nav ul li {   
+		
+	        display:inline;
+		list-style-type:none;
+		padding-left:10px;
+		padding-right:10px;
+		
+		
+		
+	    }
+
+/*NAVIGATION STYLE*/
+
+
+
+/*FEATURE IMAGE*/
+
+#feature-image
+	      	{
+		width:95%;
+		border:0px solid #A39E9E;
+		padding-top:25px;
+		padding-right:1px;
+		padding-left:1px;
+		padding-bottom:15px;
+	        margin-bottom:15px;
+		text-align:center;
+	
+	       	}
+
+#feature-image img 	{
+			width:92%;
+			height:92%}
+
+li		{
+		margin-left:10px;
+		text-align:left;
+		margin-bottom:-8px;
+		}
+
+#feature-image-aboutus
+	      
+
+		{
+		width:95%;
+		border:0px solid #A39E9E;
+		padding-top:25px;
+		padding-right:1px;
+		padding-left:1px;
+		padding-bottom:15px;
+	        margin-bottom:15px;
+		text-align:center;
+	
+	       	}
+
+li		{
+		margin-left:10px;
+		text-align:left;
+		margin-bottom:-8px;
+		}
+
+#feature-image-aboutus img {
+				width:92%;
+				height:92%}
+
+
+#feature-image-contactus
+
+	      		{
+			width:95%;
+			border:0px solid #A39E9E;
+			padding-top:25px;
+			padding-right:1px;
+			padding-left:1px;
+			padding-bottom:15px;
+	        	margin-bottom:15px;
+			text-align:center;
+	
+	       		}
+
+#feature-image-contactus img {
+				width:92%;
+				height:92%}
+
+li		{
+		margin-left:10px;
+		text-align:left;
+		margin-bottom:-8px;
+		}
+
+
+
+/*FEATURE IMAGE*/
+
+
+figure 			{
+			display:inline;
+			width:0px;
+			-webkit-margin-before: 0;
+			-webkit-margin-after: 0;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			
+			}
+
+/*FEATURE IMAGE*/
+
+
+/*INTRO TEXT*/
+
+P#intro-text 
+	       {
+		Background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+ 		font-weight:300;
+		color:#A39E9E;
+		width:670px;
+		height:120px;
+		padding-top:50px;
+		padding:10px;
+		text-align:left;
+		margin-center:260px;
+		margin-right:10px;
+		margin-left:-25px;
+		margin-top:50px;
+		margin-bottom:50px;
+		color:#000000;
+		margin:0 auto;
+		
+	  	}
+
+#text 
+	       {
+		Background:#FFFFFF;
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+ 		font-weight:300;
+		width:700px;
+		height:250px;
+		color:#A39E9E;
+		text-align:justify;
+		color:#000000;
+		padding:5px;
+		margin-right:15px;
+		margin:0 auto;
+		
+		
+		
+	  	}
+
+#text    .three-col{
+			-moz-column-count: 3;
+			-moz-column-gap: 15px;
+			-webkit-column-count: 3;
+			-webkit-column-gap: 15px;
+			}
+
+#text h1	{
+		margin:0 auto;
+		text-align:center;
+		}
+#intro-advice
+	       {
+		Background:#FFFFFF;
+		font-family: 'Open Sans', sans-serif;
+		font-size:14px;
+ 		font-weight:300;
+		width:650px;
+		height:150px;
+		color:#A39E9E;
+		text-align:justify;
+		color:#000000;
+		padding:5px;
+		margin-left:40px;
+		margin-right:150px;
+			
+	  	}
+
+#intro-advice    .three-col{
+		-moz-column-count: 3;
+		-moz-column-gap: 25px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 25px;
+		}
+
+#intro-advice h1	{
+			margin:0 auto;
+			text-align:center;
+			}
+
+
+
+
+#contactus-text 
+		{
+		Background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		width:660px;
+		height:220px;
+		font-size:18px;
+ 		font-weight:300;
+		color:#A39E9E;
+		text-align:center;
+		color:#000000;
+		margin:0 auto;
+		padding-top:1px;
+		padding-bottom:20px;
+		margin-top:10px;
+		margin-left:18px;
+		margin-right:21px;
+		margin-bottom:25px;
+				
+	  	}
+
+#image-panel
+
+	
+		{
+		margin-left:267px;
+		margin-bottom:400px;
+		margin-top:640px;
+			
+		}
+
+
+
+
+/*INTRO TEXT*/
+
+/*ASIDE CONTAINER*/
+
+#aside-container  
+		{
+		
+		margin:0 auto;
+		margin-top:60px;
+		margin-right:-20px;
+												
+		}
+
+
+
+/*ASIDE CONTAINER*/
+
+
+/*MTHENTU BLOG*/
+
+#side-panel-blog-1 {
+			background:#CECECE;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:right;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			padding-bottom:15px;
+			margin-right:50px;
+			margin-left:70px;
+			margin-bottom:100px;
+								
+		    }
+
+	
+/*MTHENTU HEADING*/
+
+	h3{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:40px;
+	        color:#000000;
+		
+	  	}	
+
+/*MTHENTU HEADING*/
+
+/*MTHENTU BLOG*/
+
+
+/*CAMPING BLOG*/
+
+#side-panel-blog-2 {
+			background:#CECECE;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:right;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			padding-bottom:15px;
+			margin-left:20px;
+			margin-bottom:35px;
+			margin:0 auto;
+		   }
+
+
+/*CAMPING HEADING*/
+
+	   h4{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:10px;
+	        color:#000000;
+		
+		
+	  	}
+
+/*CAMPING HEADING*/
+
+/*CAMPING BLOG*/
+
+/*ASIDE ABOUTUS*/
+
+#aside-aboutus  
+		{
+		
+		margin:0 auto;
+		margin-bottom:300px;
+		margin-top:-20px;
+		margin-left:5px;
+				
+		}
+
+h3{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+/*ASIDE ABOUTUS*/
+
+
+/*OUR STORY*/
+
+#side-ourstory 		{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:left;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			margin-left:25px;
+			margin-bottom:35px;
+					
+			}
+		     
+
+			
+/*OUR STORY*/
+
+/*CONTACT US*/
+
+#aside-contactus-container  
+					
+			{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			text-align:justify;
+			padding:15px;
+			margin-left:5px;
+			margin-bottom:15px;
+			float:left
+			
+				
+			}
+		     
+		     
+#contact-panel-2{ 
+			{
+			background:#F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:180px;
+			height:70px;
+			text-align:left;
+			padding-left:5px;
+			margin-left:50px;
+			padding-right:5px;						margin-right:150px;
+			margin-bottom:50px;
+		   	}												
+		
+
+
+
+
+#contact-panel-2 h2	{
+			background:##F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:40px;
+			text-align:justify;
+			}
+
+
+
+
+#contact-panel-2 img {margin:auto;}
+								
+		    }
+
+#contact-panel-1 {
+			background:##F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:170px;
+			height:40px;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			margin-right:60px;
+			margin-top:-20px;
+			margin-bottom:150px;
+		   }
+
+
+#contact-panel-1 h2	{
+			background:##F49F61;
+			font-family:'Open Sans',sans-serif;
+			font-size:16px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:25px;
+			text-align:center;
+			margin-top:25px;
+			margin-right:20px;
+			margin-left:-5px;
+			}			
+
+
+#contact-panel-2 img {margin:auto;}
+
+/*MAIN HEADINGS*/
+
+	   h2{	
+		background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:20px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:40px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+	  	}
+
+/*MAIN HEADINGS*/
+
+#side-ourstory img	{
+			margin-left:52px;
+			padding:24px;
+			}
+
+#side-married img	{
+			margin-left:30px;
+			}
+
+/*MARRIED*/
+
+#side-married 	  {
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			text-align:justify;
+			padding-left:5px;
+			float:right;
+			padding-right:5px;
+			margin-left:10px;
+			margin-right:40px;
+			margin-bottom:35px;
+			margin-top:-476px;
+		   }
+
+	
+/*MARRIED*/
+
+/*ASIDE ADVICE*/
+
+#aside-advice  
+		{
+		
+		
+		margin-bottom:20px;
+		margin-left:5px;
+		margin-right:55px;
+				
+		}
+
+
+
+/*ASIDE ADVICE*/
+
+/*MARRIAGE ADVICE*/
+
+#marriage-advice 	{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			float:left;
+			text-align:justify;
+			padding-left:5px;
+			padding-right:5px;
+			margin-right:70px;
+			margin-bottom:560px;
+			margin-top:50px;
+			margin-left:40px;
+			}
+
+
+
+
+
+h2		{	
+		background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+#marriage-advice img	{
+			margin-left:110px;
+			padding:10px;
+			}
+
+h3{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+
+		
+		   
+
+
+/*MARRIAGE ADVICE*/
+
+
+/*TAX ADVICE*/
+
+#tax-advice 		
+		{
+			background:#FFFFFF;
+			font-family:'Open Sans',sans-serif;
+			font-size:14px;
+ 			font-weight:400;
+			color:#000000;
+			width:300px;
+			height:440px;
+			text-align:justify;
+			padding-left:5px;
+			float:right;
+			padding-right:5px;
+			margin-left:35px;
+			margin-right:5px;
+			margin-bottom:35px;
+			margin-top:-1000px;
+			
+		   	}
+
+
+h2		{	
+		background:#F49F61;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+
+#tax-advice img	{
+			margin-left:110px;
+			padding:10px;
+			}
+
+h4{	
+		background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
+ 		font-weight:300;
+		color:#000000;
+		text-align:center;
+		width:300px;
+		height:25px;
+	        margin:0 auto;
+		margin-bottom:5px;
+		margin-top:5px;
+		padding-top:10px;
+		padding-bottom:5px;
+	  	}
+#tax-advice ul{
+		    text-align:justify;
+		   }
+
+/*TAX ADVICE*/
+
+/*CTA CONTAINER*/
+
+
+#cta-container  
+		
+               {
+	    	Background:#CECECE;
+		font-family: 'Open Sans', sans-serif;
+	    	font-size:16px;
+ 	    	font-weight:300;
+	    	color:#F49F61;
+	    	text-align:center;
+	   	 width:300px;
+	   	 height:250px;
+	    	padding-left:3px;
+	    	padding-right:5px;
+	    	margin-left:0px;
+		margin-right:10px;
+	    	margin-bottom:70px;
+		clear:both;
+	    	-webkit-border-top-left-radius: 100px;
+		-moz-border-top-left-radius: 100px;
+		 border-top-left-radius: 100px;
+	    	-webkit-border-top-right-radius: 25px;
+		-moz-border-top-right-radius: 25px;
+		 border-top-right-radius: 25px;
+	    	-webkit-border-bottom-right-radius: 100px;
+		-moz-border-bottom-right-radius: 100px;
+		 border-bottom-right-radius: 100px;
+	    	}
+
+#CTA h4			
+				{
+				width:250px;
+				text-align:left;
+				margin-left:20px;
+				
+				}
+#CTA img			
+				{
+				margin-left:30px;
+				padding-right:10px;
+				margin-top:-25px;
+				}
+
+#CTA-heading
+				{
+				
+				font-family:"Open Sans",sans-serif;
+				font-size:30px;
+				font-weight:300;
+				text-align:right;
+				padding-top:5px;
+				padding-right:22px;
+				background:#FFFFFF;
+				width:185px;
+				height:50px;
+				margin-left:85px;
+				margin-right:35px;
+				padding-right:20px;
+				padding-left:15px;
+				-webkit-border-radius: 25px;
+				-webkit-border-bottom-right-radius: 0;
+				-webkit-box-shadow: 5px -6px 25px 0px rgba(132, 132, 132, 0.6)
+				
+			        }
+			
+
+
+  
+/*CTA BOX*/
+
+
+
+#footer-strip		
+			{
+			margin-right:5px;
+			margin-bottom:90px;
+			
+			}
+
+
+/*FOOTER*/
+#footer-container	{
+			
+			max-width:100%;
+			min-width:100%; 
+			height:100px;
+			text-align:center;
+			min-height:100px;
+			margin:auto;
+			margin-top:-100px;
+			clear:both;
+			
+			}
+#footer		
+		{			 
+ 		 	 min-height:100%; 
+  			 width:100%; 
+			 height:100%;
+  			 max-width:100%; 
+  		 	 margin:auto;
+			 text-align:center;
+			 clear:both;
+				 
+		}
+
+/*FOOTER*/
+
+
